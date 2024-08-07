@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_margin="10dp"
+    tools:context=".SingleLabTest">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear1"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/images12"
+                android:layout_marginLeft="10dp"/>
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test Z"
+                android:fontFamily="@font/montserrat1"
+                android:id="@+id/test_name"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="5dp"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/linear1"
+            android:id="@+id/linear2">
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="This is the description for the test z."
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/montserrat1"
+                android:id="@+id/test_description"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear3"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/linear2">
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10% OFF"
+                android:textColor="#FF9800"
+                android:layout_marginLeft="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/test_discount"/>
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1500KES"
+                android:textColor="#070707"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:id="@+id/test_cost"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear4"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:layout_below="@id/linear3">
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD TO CART"
+                android:layout_marginStart="15dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat1"
+                android:id="@+id/addtocart" />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

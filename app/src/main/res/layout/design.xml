@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:focusable="true"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/image"
+        android:src="@drawable/ic_cart"/>
+    <TextView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:text="3"
+        android:id="@+id/badge"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:background="@drawable/shape"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="-4dp"
+        android:gravity="center"/>
+
+
+</FrameLayout>
