@@ -55,17 +55,22 @@
         android:hint="Search lab name..."
         android:id="@+id/search"
         android:layout_margin="5dp"/>
-
-
     <ProgressBar
-        android:id="@+id/progress"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:progressDrawable="@drawable/custom_progress_drawable"
-        android:max="100"
-        android:progress="0" />
+        android:layout_gravity="center"
+        android:id="@+id/progress"/>
+
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progress"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="30dp"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:progressDrawable="@drawable/custom_progress_drawable"-->
+<!--        android:max="100"-->
+<!--        android:progress="0" />-->
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:layout_width="match_parent"
