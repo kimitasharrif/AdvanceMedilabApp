@@ -53,6 +53,7 @@
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/search"
         android:hint="Search lab name..."
+        android:fontFamily="@font/montserrat"
         android:id="@+id/search"
         android:layout_margin="5dp"/>
     <ProgressBar
